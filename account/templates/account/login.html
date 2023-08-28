@@ -34,7 +34,7 @@ https://templatemo.com/tm-582-tale-seo-agency
 -->
   </head>
 
-<body>
+<body >
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script>
       window.setTimeout( function(){
@@ -43,6 +43,18 @@ https://templatemo.com/tm-582-tale-seo-agency
         });
       },4000)
     </script>
+
+  <video id="background-video" autoplay loop muted style="height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;">
+    <source src="https://assets.codepen.io/6093409/river.mp4" type="video/mp4">
+  </video>
    
    
 
@@ -95,12 +107,12 @@ https://templatemo.com/tm-582-tale-seo-agency
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
                     <a href="/" class="logo">
-                        <img src="{% static 'img/logolo.avif' %}"  alt="" style="max-width: 112px;">
+                        <img  src="{% static 'img/logolo.avif' %}" alt="" style="max-width: 112px;">
                     </a>
                     <!-- ***** Logo End ***** -->
                     <!-- ***** Menu Start ***** -->
                     <ul class="nav">
-                      <li class="scroll-to-section"><a href="/" class="active"><b style="font-size:30px">Allakro-services</b></a></li>
+                      <li class="scroll-to-section"><a href="/" class="active"><b style="font-size:40px">Allakro</b></a></li>
                       {% if  user.is_authenticated %}
                       <li class="scroll-to-section"><a href="#services">Services</a></li>
                       {% if dash %} 
@@ -112,7 +124,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                      
                       {% endif %} 
                       {% if  user.is_authenticated %}
-                      <li class="scroll-to-section"><h5><b style='color:blue'>{{ firstname }} connecté(e)</b></h5></li>
+                      <li class="scroll-to-section"><h5><b style='color:orangered'>{{ firstname }} connecté(e)</b></h5></li>
                       {% endif %} 
                     </ul>   
                     
@@ -122,12 +134,13 @@ https://templatemo.com/tm-582-tale-seo-agency
         </div>
     </div>
 
+    <br><br><br><br>
 <div class="contact-us section" id="contact" style="margin-top: -18px">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 offset-lg-3" >
-        <div class="contact-us-content">
-          <div class="row">
+        <div class="contact-us-content" style="background-color: orange">
+          <div class="row" style="background-color: white">
             <div class="col">
              
             </div>
@@ -158,7 +171,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                 <div class="row">
                   <div class="col-lg-12 ">
                     <div class="section-heading" >
-                      <h2><span>Veuillez vous connecter!</span></h2>
+                      <h2><span style='color:orange'>Veuillez vous connecter!</span></h2>
                     </div>
                   </div>
                   <div class="col-lg-12" >
@@ -173,7 +186,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit" id="form-submit" class="orange-button">Connexion</button>
+                      <button type="submit" id="form-submit" class="orange-button" style='background-color:green'>Connexion</button>
                     </fieldset>
                   </div>
                   
@@ -184,20 +197,20 @@ https://templatemo.com/tm-582-tale-seo-agency
                   <div class="col-lg-4">
                     <div class="info-item">
                       <i class="fa fa-phone"></i>
-                      <h4><a href="tel:0748365619">+22507 48 36 56 19</a></h4>
+                      <h4><a href="tel:0748365619">+225 07 48 36 56 19</a></h4>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="info-item">
                       <i class="fa fa-envelope"></i>
-                      <h4><a href="mailto:yatte.acho@uvci.edu.com">yatte.acho@uvci.edu.ci</a></h4>
+                      <h4><a href="mailto:yatte.acho@uvci.edu.com">yatte.acho@uvci.edu.ci   </a></h4>
                       <h4><a href="mailto:acho.quebec@gmail.com">acho.quebec@gmail.com</a></h4>
                     </div>
                   </div>
                   <div class="col-lg-4">
                     <div class="info-item">
                       <i class="fa fa-map-marker"></i>
-                      <h4><a href="#">Cocody Abidjan</a></h4>
+                      <h4><a href="#">    Cocody </a></h4>
                     </div>
                   </div>
                 </div>
